@@ -12,7 +12,7 @@ import { BrowserRouter as Router,
 
 
 export default class App extends Component {
-  pageSize = 6;
+  pageSize = 10;
   constructor() {
     super();
     this.state = {
@@ -34,7 +34,7 @@ export default class App extends Component {
         <Navbar mode={this.state.mode} toggleMode={this.toggleMode} />
         
          <Routes>
-            <Route path="/" element={<News key="general" pageSize={this.pageSize} country="us" mode={this.state.mode} category="general" />} />
+            <Route path="/" element={<News key="home" pageSize={this.pageSize} country="us" mode={this.state.mode} category="general" />} />
             <Route path="/business" element={<News key="business" pageSize={this.pageSize} country="us" mode={this.state.mode} category="business" />} />
             <Route path="/entertainment" element={<News key="entertainment" pageSize={this.pageSize} country="us" mode={this.state.mode} category="entertainment" />} />
             <Route path="/general" element={<News key="general" country="us" pageSize={this.pageSize} mode={this.state.mode} category="general" />} />
@@ -43,7 +43,7 @@ export default class App extends Component {
             <Route path="/sports" element={<News key="sports" country="us" pageSize={this.pageSize} mode={this.state.mode} category="sports" />} />
             <Route path="/technology" element={<News key="technology" pageSize={this.pageSize} mode={this.state.mode} country="us" category="technology" />} />
         </Routes>
-        </Router>
+        </Router> 
       </div>
     )
   }
