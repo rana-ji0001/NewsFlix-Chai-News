@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/rana-ji0001/NewsFlix-Chai-News.git/static/css/main.ae82fff3.css",
+    "main.js": "/rana-ji0001/NewsFlix-Chai-News.git/static/js/main.17a476fa.js",
+    "static/js/453.f59e58e5.chunk.js": "/rana-ji0001/NewsFlix-Chai-News.git/static/js/453.f59e58e5.chunk.js",
+    "index.html": "/rana-ji0001/NewsFlix-Chai-News.git/index.html",
+    "main.ae82fff3.css.map": "/rana-ji0001/NewsFlix-Chai-News.git/static/css/main.ae82fff3.css.map",
+    "main.17a476fa.js.map": "/rana-ji0001/NewsFlix-Chai-News.git/static/js/main.17a476fa.js.map",
+    "453.f59e58e5.chunk.js.map": "/rana-ji0001/NewsFlix-Chai-News.git/static/js/453.f59e58e5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ae82fff3.css",
+    "static/js/main.17a476fa.js"
+  ]
+}

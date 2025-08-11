@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.ae82fff3.css","mappings":"AAAA,UACE,4CACF,CAEA,gBACE,oBAEF","sources":["components/Navbar.css"],"sourcesContent":[".nav-link {\r\n  transition: transform 0.2s ease, color 0.2s ease;\r\n}\r\n\r\n.nav-link:hover {\r\n  transform: scale(1.2);\r\n\r\n}"],"names":[],"sourceRoot":""}
