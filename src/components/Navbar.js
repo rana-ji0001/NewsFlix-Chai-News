@@ -1,12 +1,11 @@
-import React, { Component } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import './Navbar.css';
 
-export class Navbar extends Component {
-  render() {
+const Navbar = (props) => {
     return (
       <div>
-        <nav className={`navbar navbar-expand-lg navbar-${this.props.mode} bg-${this.props.mode}`}>
+        <nav className={`navbar fixed-top navbar-expand-lg navbar-${props.mode} bg-${props.mode}`  } style={{ boxShadow: "0 4px 6px rgba(0,0,0,0.3)" }} >
           <div className="container-fluid">
             <Link className="navbar-brand d-flix align-items-center" to="/">
              <img 
@@ -59,9 +58,9 @@ export class Navbar extends Component {
                   <Link className="nav-link" to="/Technology">Technology</Link>
                 </li>
               </ul>
-              <div className={`form-check form-switch text-${this.props.mode === 'light'?'dark':'light'}`} >
-                <input className="form-check-input" onClick={this.props.toggleMode} type="checkbox" role="switch" id="switchCheckDefault"/>
-                <label className="form-check-label" htmlFor="switchCheckDefault">Enable {this.props.mode === 'light'?'dark':'light'} Mode</label>
+              <div className={`form-check form-switch text-${props.mode === 'light'?'dark':'light'}`} >
+                <input className="form-check-input" onClick={props.toggleMode} type="checkbox" role="switch" id="switchCheckDefault"/>
+                <label className="form-check-label" htmlFor="switchCheckDefault">Enable {props.mode === 'light'?'dark':'light'} Mode</label>
             </div>
               
             </div>
@@ -70,7 +69,6 @@ export class Navbar extends Component {
         </nav>
       </div>
     );
-  }
 }
 
 export default Navbar;
