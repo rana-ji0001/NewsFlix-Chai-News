@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/rana-ji0001/NewsFlix-Chai-News/static/css/main.ae82fff3.css",
-    "main.js": "/rana-ji0001/NewsFlix-Chai-News/static/js/main.4ef9e0c0.js",
-    "static/js/453.f59e58e5.chunk.js": "/rana-ji0001/NewsFlix-Chai-News/static/js/453.f59e58e5.chunk.js",
-    "index.html": "/rana-ji0001/NewsFlix-Chai-News/index.html",
-    "main.ae82fff3.css.map": "/rana-ji0001/NewsFlix-Chai-News/static/css/main.ae82fff3.css.map",
-    "main.4ef9e0c0.js.map": "/rana-ji0001/NewsFlix-Chai-News/static/js/main.4ef9e0c0.js.map",
-    "453.f59e58e5.chunk.js.map": "/rana-ji0001/NewsFlix-Chai-News/static/js/453.f59e58e5.chunk.js.map"
+    "main.css": "/NewsFlix-Chai-News/static/css/main.ae82fff3.css",
+    "main.js": "/NewsFlix-Chai-News/static/js/main.b4d0d9ce.js",
+    "static/js/453.f59e58e5.chunk.js": "/NewsFlix-Chai-News/static/js/453.f59e58e5.chunk.js",
+    "index.html": "/NewsFlix-Chai-News/index.html",
+    "main.ae82fff3.css.map": "/NewsFlix-Chai-News/static/css/main.ae82fff3.css.map",
+    "main.b4d0d9ce.js.map": "/NewsFlix-Chai-News/static/js/main.b4d0d9ce.js.map",
+    "453.f59e58e5.chunk.js.map": "/NewsFlix-Chai-News/static/js/453.f59e58e5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ae82fff3.css",
-    "static/js/main.4ef9e0c0.js"
+    "static/js/main.b4d0d9ce.js"
   ]
 }
