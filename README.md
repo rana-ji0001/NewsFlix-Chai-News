@@ -1,70 +1,88 @@
-# Getting Started with Create React App
+📰 NewsFlix
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+NewsFlix is a modern React-based news application that provides users with the latest headlines from multiple categories like Technology, Sports, Entertainment, Business, Health, and more. It uses the News API for fetching real-time articles and displays them in a clean, responsive UI.
 
-## Available Scripts
+✨ Features
 
-In the project directory, you can run:
+📰 Latest real-time news articles
 
-### `npm start`
+🏷️ Browse by categories (Technology, Business, Sports, etc.)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+🔍 Search news by keyword
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+🌙 Dark/Light mode toggle (if implemented)
 
-### `npm test`
+📱 Fully responsive UI
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+⚡ Fast and dynamic using React Router
 
-### `npm run build`
+🛠️ Tech Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+🔄 Infinite Scrolling for seamless browsing
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+🔑 Login bar for user personalization
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Frontend:
 
-### `npm run eject`
+React.js
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+React Router
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Context API / Hooks
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Bootstrap / TailwindCSS
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Backend (optional):
 
-## Learn More
+Node.js + Express (if you proxy API requests)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+API:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+NewsAPI.org
 
-### Code Splitting
+Deployment:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Frontend → Vercel
 
-### Analyzing the Bundle Size
+Backend (if any) → Render / Railway
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+🚀 Getting Started
+1️⃣ Clone the repository
 
-### Making a Progressive Web App
+https://github.com/rana-ji0001/NewsFlix-Chai-News.git
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+cd NewsFlix-Chai-News
 
-### Advanced Configuration
+2️⃣ Install dependencies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+npm install
 
-### Deployment
+3️⃣ Setup Environment Variables
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Create a .env file in your root folder:
 
-### `npm run build` fails to minify
+REACT_APP_NEWS_API_KEY=(make your own API key from NEWS API.org free plan this is the api I used)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+▶️ Running the App Locally
+Frontend
+
+npm start
+
+🌐 Deployment
+
+Deployed on ghPages but it won't show news because NewsApi I used only works on localhost
+
+📸 Screenshots
+Home Page	Category Page
+[capture_20250903125632078.bmp](https://github.com/user-attachments/files/22112004/capture_20250903125632078.bmp)
+
+	
+🤝 Contributing
+
+Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to change.
+
+
+
+
+
+
